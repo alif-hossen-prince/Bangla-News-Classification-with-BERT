@@ -1,11 +1,11 @@
 # Bangla-News-Classification-with-BERT
-Bangla News Classification: A Comparative Analysis of Transformer and Sequential Architectures
+**Bangla News Classification: A Comparative Analysis of Transformer and Sequential Architectures**
 This repository contains code and resources for classifying Bangla news articles into different categories using various machine learning models. The project focuses on comparing the performance of transformer-based architectures (BERT, DistilBERT) with traditional sequential models (BiLSTM, CNN, GRU).
 
-Project Overview
+**Project Overview**
 The goal of this project is to build and evaluate different models for Bangla news classification, providing a comprehensive analysis of their strengths and weaknesses. We leverage pre-trained language models such as BERT and DistilBERT, along with custom-built sequential models, to achieve this.
 
-Key Features
+**Key Features**
 Comparative Analysis:
 Directly compares the performance of transformer-based models with sequential models on Bangla news classification.
 
@@ -24,7 +24,7 @@ Provides confusion matrices and detailed classification reports to understand mo
 Bangla Text Preprocessing:
 Includes functions for basic Bangla text cleaning and tokenization.
 
-Dataset
+**Dataset**
 The project uses a Bangla news dataset (https://www.kaggle.com/datasets/durjoychandrapaul/over-11500-bangla-news-for-nlp) containing news articles and their corresponding categories. The dataset is expected to have the following columns:
 
 title: Title of the news article.
@@ -39,7 +39,7 @@ url: URL of the news article.
 
 content: Text content of the news article.
 
-Data Preprocessing
+**Data Preprocessing**
 Label Encoding:
 Categories are encoded into numerical labels using sklearn.preprocessing.LabelEncoder.
 
@@ -49,7 +49,7 @@ Basic cleaning is applied to the text content, including lowercasing, punctuatio
 Tokenization:
 Text is tokenized using a simple whitespace-based tokenizer for custom models, and pre-trained tokenizers for transformer-based models.
 
-Models
+**Models**
 The following models are implemented and compared in this repository:
 
 BERT (bert-base-multilingual-cased):
@@ -67,10 +67,10 @@ A convolutional neural network featuring an embedding layer, convolutional layer
 GRU:
 A gated recurrent unit model with an embedding layer, GRU layers, and a fully connected output layer.
 
-Observations:
+**Observations:**
 Highlight interesting patterns such as which model better captures the nuances in Bangla news text or how different architectures handle various news categories.
 
-Future Work:
+**Future Work:**
 Our future work will focus on several promising avenues. We 
 plan to implement advanced attention mechanisms and ensemble 
 approaches to better differentiate between overlapping categories 
@@ -83,13 +83,13 @@ Multimodal approaches could facilitate a more comprehensive
 understanding of Bangla news content, enabling models to leverage 
 visual and auditory signals alongside text to resolve ambiguities and enhance decision-making in complex scenarios. 
 
-Contributing
+**Contributing**
 Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-License
+**License**
 This project is licensed under the MIT License.
 
-Acknowledgements
+**Acknowledgements**
 I would like to express my deepest gratitude to my Deep 
 Learning course instructor, Md. Mynoddin, for his 
 unwavering support and insightful guidance throughout my 
